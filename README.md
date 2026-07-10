@@ -4,6 +4,48 @@ An IoT-based real-time industrial telemetry and safety monitoring system powered
 
 ---
 
+## 🖼️ Project Prototype
+
+<table>
+<tr>
+<td align="center">
+
+### Prototype - Front View
+<img src="IMG_20260709_110850.jpg.jpeg" width="420" alt="Prototype Front View">
+
+</td>
+<td align="center">
+
+### Prototype - Top View
+<img src="IMG_20260709_123810.jpg.jpeg" width="420" alt="Prototype Side View">
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💻 Web Dashboard
+
+<table>
+<tr>
+<td align="center">
+
+### Live Monitoring Interface
+<img src="Screenshot_20260709_123315.jpg.jpeg" width="420" alt="Dashboard Overview">
+
+</td>
+<td align="center">
+
+### Live Monitoring Interface
+<img src="Screenshot_20260709_123319.jpg.jpeg" width="420" alt="Live Monitoring Interface">
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📌 Features
 
 - **Dual-Mode Wi-Fi Connectivity:** Functions simultaneously in Station (`STA`) mode (connecting to local router) and Direct Hotspot (`AP`) mode (fallback/field access at `192.168.4.1`).
@@ -16,7 +58,7 @@ An IoT-based real-time industrial telemetry and safety monitoring system powered
   - **Proximity:** IR Obstacle Avoidance Sensor
   - **Fuel / Tank Level:** Ultrasonic (HC-SR04) level measurement converted to volume (mL) and percentage (%)
   - **Electrical Monitoring:** Analog Current and Voltage ADC inputs
-- **Automated Relay Control:** Triggers cooling/fan relay dynamically when temperature exceeds defined threshold ($45.0^\circ\text{C}$).
+- **Automated Relay Control:** Triggers cooling/fan relay dynamically when temperature exceeds defined threshold (45.0°C).
 - **Dedicated Alert Logic:**
   - **Object Status:** Displays `STAY AWAY` (Alert) or `ALL CLEAR` (OK) based on IR proximity detection without affecting core machine telemetry.
   - **Machine Fault Detection:** Aggregates gas threshold breaches, fire alerts, and high vibration into a master `FAULT DETECTED` indicator.
@@ -52,10 +94,10 @@ Ensure you have the following installed in your **Arduino IDE** or **PlatformIO*
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/esp32-industrial-monitoring-system.git
-   cd esp32-industrial-monitoring-system
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/esp32-industrial-monitoring-system.git](https://github.com/your-username/esp32-industrial-monitoring-system.git)
+cd esp32-industrial-monitoring-system
    ```
 
 2. **Configure Credentials:**
