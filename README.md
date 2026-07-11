@@ -21,6 +21,16 @@ An IoT-based real-time industrial telemetry and safety monitoring system powered
 
 </td>
 </tr>
+<tr>
+<td align="center">
+
+<h3>Prototype - Demonstration Video</h3>
+
+<a href="./video_20260711_122524.mp4">
+  <img src="./thumbnail.jpg" width="420" alt="Prototype Demonstration Video">
+</a>
+</td>
+</tr>
 </table>
 
 ---
